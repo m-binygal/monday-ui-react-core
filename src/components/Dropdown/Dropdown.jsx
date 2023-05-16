@@ -79,6 +79,7 @@ const Dropdown = forwardRef(
       isLoading,
       loadingMessage,
       ariaLabel,
+      onScroll,
       "data-testid": dataTestId
     },
     ref
@@ -346,6 +347,7 @@ const Dropdown = forwardRef(
         isOptionSelected={isOptionSelected}
         isLoading={isLoading}
         loadingMessage={loadingMessage}
+        onScroll={onScroll}
         {...asyncAdditions}
         {...additions}
       />
